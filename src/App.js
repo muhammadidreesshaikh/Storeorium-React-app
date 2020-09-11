@@ -4,6 +4,7 @@ import './App.css';
 import Header from './layout/Header';
 import Footer from './layout/Footer';
 import Home from './components/Home';
+import Slider from './Shared/Slider';
 
 import { 
   BrowserRouter as Router, 
@@ -23,6 +24,8 @@ function App() {
           <div>
             <Switch>
               <Route exact path='/' component={Home}></Route>
+              <Route exact path='/home' component={Home}></Route>
+              <Route exact path='/slider' component={Slider}></Route>
             </Switch>
           </div>
 

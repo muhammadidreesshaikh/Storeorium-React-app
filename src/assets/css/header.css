@@ -10,13 +10,6 @@
     border-radius: 2px;
 }
 
-.header .logo a{
-    font-size: 20px;
-    color: #00ffdc;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 .header .nav{
     padding-top: 20px;
     float: right;

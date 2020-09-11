@@ -1,0 +1,20 @@
+.slider
+{
+    background-image: url(/static/media/slider.05b3984b.png);
+    width: 100%;
+    height: 86vh;
+    padding-top: 15%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #636363;
+    background-attachment: fixed;
+}
+
+.slider h1{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
